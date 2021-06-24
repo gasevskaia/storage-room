@@ -27,8 +27,8 @@
     </nav>
 </header>
 <main class="page-main">
-    <div class="page-main__breadcrumbs">
-        <ul class="page-main__breadcrumbs-list bp3-breadcrumbs">
+    <section class="breadcrumbs">
+        <ul class="breadcrumbs__list bp3-breadcrumbs">
             <li><a class="bp3-breadcrumbs-collapsed" href="#"></a></li>
             <li><a class="bp3-breadcrumb bp3-disabled">Folder one</a></li>
             <li><a class="bp3-breadcrumb" href="#">Folder two</a></li>
@@ -36,8 +36,22 @@
             <li><span class="bp3-breadcrumb bp3-breadcrumb-current">File</span></li>
         </ul>
         <div></div>
-    </div>
-    <div class="page-main__content"></div>
+    </section>
+    <section class="content">
+        <div class="content__product-details">
+            <div class="content__product-designation">
+                <span class="content__product-status"></span>
+                <span class="content__product-title">Name of product</span>
+                <span class="content__product-stock">stock: 5 x 1 KG (5kg total)</span>
+            </div>
+            <div class="content__product-sorting">
+                <span class="content__product-list">Pantry</span>
+                <span class="content__product-category">Category</span>
+                <span class="content__product-category">Category</span>
+                <span class="content__product-category">Category</span>
+            </div>
+        </div>
+    </section>
 </main>
 <script src="js/app.min.js"></script>
 </body>
